@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Preguntas y Respuestas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Juego de Preguntas y Respuestas</h1>
+        <div id="info">
+            <p>Categoría: <span id="category">General</span></p>
+            <p>Dificultad: <span id="difficulty">Fácil</span></p>
+            <p>Tiempo restante: <span id="timer">30</span> segundos</p>
+            <p>Puntaje: <span id="score">0</span></p>
+        </div>
+        <div id="question-container">
+            <p id="question">Pregunta aparecerá aquí</p>
+            <div id="answers"></div>
+        </div>
+        <button id="next-btn" class="hidden">Siguiente Pregunta</button>
+        <button id="start-btn">Comenzar Juego</button>
+        <p id="final-score" class="hidden"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
